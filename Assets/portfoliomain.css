@@ -1,11 +1,17 @@
 #header {
-    background-image: linear-gradient( aqua 40%, grey, black) ;
     color: black;
     font-family: 'Staatliches', cursive;
+    background-image: linear-gradient(#004e68, #006687, #09c2ff, #a7e9ff);
+    font-size: 100px;
+    
 }
+body{
+    background-color: #a7e9ff;
+}
+
 .navbuttons {
-    color: aqua;
-    display: inline-block;
+    color:#75ddff;
+    display: inline-block;  
 }
 .homebutton:hover {
     color: black;
@@ -18,6 +24,7 @@
 .projectsbutton:hover {
     color: black;
     opacity: 0.5;
+    
 }
 #portfolio a:hover {
     color: black;
@@ -25,17 +32,76 @@
     opacity: 0.3; 
 }
 .aboutbutton {
-    background-color: aqua;
+    background-color: #75ddff;
     color: black;
 }
 .projectsbutton {
-    background-color: aqua;
+    background-color:#75ddff;
     color: black;
     
 }.homebutton {
-    background-color: aqua;
+    background-color: #75ddff;
     color: black;  
 }
+.contactbutton {
+    background-color: #75ddff;
+    color: black;
+
+}
+.jumbotron {
+    height: 90vh;
+    text-align: center;
+    
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+ul input {
+    margin-right: 1000px;
+}
+textarea {
+    margin-right: 800px;
+}
+#about {
+    height: 60vh;
+    text-align: center;
+}
+#portfolio {
+    height: 60vh;
+}
+#portfolio h2 {
+    text-align: center;
+}
+#contact {
+    height: 60vh;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+
+   
+   
+    
+
+
+    
+    
+
+
+
+
+
 
     
 
