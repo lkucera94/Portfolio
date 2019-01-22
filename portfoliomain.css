@@ -2,13 +2,11 @@
     color: black;
     font-family: 'Staatliches', cursive;
     background-image: linear-gradient(#004e68, #006687, #09c2ff, #a7e9ff);
-    font-size: 100px;
-    
 }
 body{
-    background-color: #a7e9ff;
+    
+    background-image: linear-gradient(#a7e9ff 40%, #09c2ff, #006687, #004e68);
 }
-
 .navbuttons {
     color:#75ddff;
     display: inline-block;  
@@ -23,8 +21,7 @@ body{
 }
 .projectsbutton:hover {
     color: black;
-    opacity: 0.5;
-    
+    opacity: 0.5;  
 }
 #portfolio a:hover {
     color: black;
@@ -46,31 +43,22 @@ body{
 .contactbutton {
     background-color: #75ddff;
     color: black;
-
 }
 .jumbotron {
     height: 90vh;
     text-align: center;
-    
 }
-ul {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-}
-ul input {
-    margin-right: 1000px;
-}
-textarea {
-    margin-right: 800px;
-}
-#about {
+#about  {
     height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+#about h2{
     text-align: center;
 }
 #portfolio {
     height: 60vh;
+  
 }
 #portfolio h2 {
     text-align: center;
@@ -78,17 +66,35 @@ textarea {
 #contact {
     height: 60vh;
     text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#contact button{
+    border: 2px solid black;
 }
 .container {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid gray;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    
+    background-color:lightgray;
+    border-radius: 10px; 
 }
+.backgroundpara-one {
+    width: 900px;
+}
+.backgroundpara-two {
+    width: 900px;
+}
+.backgroundpara-three {
+    width: 900px;
+}
+#footer {
+    text-align: center;
+}
+.giraffe img {
+    border: 2px solid black;  
+}
+
+
+
+
 
    
    
