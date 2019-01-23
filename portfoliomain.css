@@ -2,6 +2,8 @@
     color: black;
     font-family: 'Staatliches', cursive;
     background-image: linear-gradient(#004e68, #006687, #09c2ff, #a7e9ff);
+    height: 80vh;
+   
 }
 body{
     background-image: linear-gradient(#a7e9ff 40%, #09c2ff, #006687, #004e68);
@@ -9,6 +11,7 @@ body{
 .navbuttons {
     color:#75ddff;
     display: inline-block;  
+    font-family: 'Staatliches', cursive;
 }
 .homebutton:hover {
     color: black;
@@ -44,15 +47,15 @@ body{
     color: black;
 }
 .jumbotron {
-    height: 90vh;
     text-align: center;
     
 }
 #about  {
     height: 60vh;
 }
-#about h2{
+ h2{
     text-align: center;
+    font-family: 'Staatliches', cursive;
 }
 .background-wrapper {
     margin-top: 50px;
@@ -63,22 +66,21 @@ body{
 }
 #portfolio {
     height: 60vh;
-}
-#portfolio h2 {
-    text-align: center;
+    font-family: 'Staatliches', cursive;
+   
 }
 #portfolio a {
     display: inline-block;
-    margin-left: 137px;
-    margin-right: 150px;
-    margin-top: 70px;
-    
+    margin-left: 50px;
+    margin-top: 25px;
 }
+
 #contact {
     height: 60vh;
     text-align: center;
     justify-content: center;
     align-content: center;
+    font-family: 'Staatliches', cursive;
 }
 #contact button{
     border: 2px solid black;
@@ -94,6 +96,20 @@ body{
  img {
     border: 2px solid black;  
 }
+.logos img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 10px;
+    margin-top: 20px;
+}
+.logos{
+    margin-right: 37%;
+    margin-left: 37%;
+    position: relative; 
+}
+
+
 
 
 
