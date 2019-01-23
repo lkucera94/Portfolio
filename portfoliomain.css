@@ -4,7 +4,6 @@
     background-image: linear-gradient(#004e68, #006687, #09c2ff, #a7e9ff);
 }
 body{
-    
     background-image: linear-gradient(#a7e9ff 40%, #09c2ff, #006687, #004e68);
 }
 .navbuttons {
@@ -47,21 +46,33 @@ body{
 .jumbotron {
     height: 90vh;
     text-align: center;
+    
 }
 #about  {
     height: 60vh;
-    display: flex;
-    justify-content: center;
 }
 #about h2{
     text-align: center;
 }
+.background-wrapper {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 14pt;
+}
 #portfolio {
     height: 60vh;
-  
 }
 #portfolio h2 {
     text-align: center;
+}
+#portfolio a {
+    display: inline-block;
+    margin-left: 137px;
+    margin-right: 150px;
+    margin-top: 70px;
+    
 }
 #contact {
     height: 60vh;
@@ -75,22 +86,15 @@ body{
 .container {
     background-color:lightgray;
     border-radius: 10px; 
-}
-.backgroundpara-one {
-    width: 900px;
-}
-.backgroundpara-two {
-    width: 900px;
-}
-.backgroundpara-three {
-    width: 900px;
+    margin-top: 100px;
 }
 #footer {
     text-align: center;
 }
-.giraffe img {
+ img {
     border: 2px solid black;  
 }
+
 
 
 
