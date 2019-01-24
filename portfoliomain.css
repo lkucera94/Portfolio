@@ -13,25 +13,25 @@ body{
     font-family: 'Staatliches', cursive;
 }
 .homebutton:hover {
-    color: black;
+    color: purple;
     opacity: 0.5; 
 }
 .aboutbutton:hover {
-    color: black;
+    color: purple;
     opacity: 0.5;
 }
 .projectsbutton:hover {
-    color: black;
+    color: purple;
     opacity: 0.5;  
 }
 .contactbutton:hover {
-    color: black;
+    color: purple;
     opacity: 0.5;  
 }
 #portfolio a:hover {
     color: black;
     text-decoration: none;
-    opacity: 0.3; 
+    opacity: 0.5; 
 }
 .aboutbutton {
     background-color: #75ddff;
@@ -59,6 +59,7 @@ body{
  h2{
     text-align: center;
     font-family: 'Staatliches', cursive;
+    color: purple;
 }
 .background-wrapper {
     margin-top: 50px;
@@ -77,8 +78,12 @@ body{
 #contact button{
     border: 2px solid black;
 }
+#contact button:hover {
+    opacity: .75;
+    color:purple;
+}
 .container {
-    background-color:rgba(211, 211, 211, .5);
+    background-color:rgba(211, 211, 211, 0.5);
     border-radius: 10px; 
     margin-top: 100px;
 }
@@ -96,7 +101,7 @@ body{
     height: 70px;
     border-radius: 100%;
     margin: 10px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .logos{
     margin-right: 37%;
@@ -106,9 +111,25 @@ body{
 section {
     padding-top: 100px;
 }
-
-
-
+.card-group {
+    padding-top: 50px;
+}
+.backgroundpara {
+    font-family: 'PT Sans', sans-serif;
+}
+#portfolio p {
+    font-family: 'PT Sans', sans-serif;
+}
+#portfolio h4 {
+    font-family: 'PT Sans', sans-serif;
+    
+}
+#contact input {
+    font-family: 'PT Sans', sans-serif;
+}
+#contact textarea {
+    font-family: 'PT Sans', sans-serif;
+}
 
 
 
