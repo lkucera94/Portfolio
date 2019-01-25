@@ -60,6 +60,7 @@ body{
     text-align: center;
     font-family: 'Staatliches', cursive;
     color: purple;
+  
 }
 .background-wrapper {
     margin-top: 50px;
@@ -86,9 +87,12 @@ body{
     background-color:rgba(211, 211, 211, 0.5);
     border-radius: 10px; 
     margin-top: 100px;
+    border: 2px solid #75ddff;
 }
 #footer {
     text-align: center;
+    color:  #75ddff
+    
 }
  img {
     border: 2px solid white;  
@@ -131,6 +135,18 @@ section {
 #contact textarea {
     font-family: 'PT Sans', sans-serif;
 }
+#header h1 {
+    color:black;
+    text-shadow:
+    -1px -1px 0 purple,
+    1px -1px 0 purple,
+    -1px 1px 0 purple,
+    1px 1px 0 purple;
+}
+#header p {
+    color:  #75ddff;
+}
+
 
 
 
