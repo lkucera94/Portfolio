@@ -66,7 +66,7 @@ body{
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    text-align: center;
+    
     font-size: 14pt;
 }
 #contact {
@@ -146,6 +146,13 @@ section {
 #header p {
     color:  #75ddff;
 }
+.self-image img{
+    height: 410px;
+    width: 350px;
+    margin-top: -470px;
+    margin-left: 1200px;
+}
+
 
 
 
