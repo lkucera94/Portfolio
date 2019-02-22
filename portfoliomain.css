@@ -94,9 +94,7 @@ body{
     color:  #75ddff
     
 }
- img {
-    border: 2px solid white;  
-}
+
 #header img{
     border: 2px solid black;
 }
@@ -118,6 +116,9 @@ section {
 .card-group {
     padding-top: 50px;
     padding-bottom: 20px;
+}
+.card{
+    border: 2px solid purple;
 }
 .backgroundpara {
     font-family: 'PT Sans', sans-serif;
@@ -151,6 +152,7 @@ section {
     width: 350px;
     margin-top: -470px;
     margin-left: 1200px;
+    border: 2px solid purple;
 }
 
 
