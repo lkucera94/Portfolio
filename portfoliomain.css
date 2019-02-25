@@ -28,6 +28,7 @@ body{
     color: purple;
     opacity: 0.5;  
 }
+
 #portfolio a:hover {
     color: black;
     text-decoration: none;
@@ -54,7 +55,8 @@ body{
     
 }
 #about  {
-    height: 60vh;
+    height: 75vh;
+    
 }
  h2{
     text-align: center;
@@ -111,7 +113,7 @@ body{
     position: relative; 
 }
 section {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .card-group {
     padding-top: 50px;
@@ -150,7 +152,7 @@ section {
 .self-image img{
     height: 410px;
     width: 350px;
-    margin-top: -470px;
+    margin-top: -520px;
     margin-left: 1200px;
     border: 2px solid purple;
 }
